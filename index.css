@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.card {
+    width: 300px;
+    height: 90vh;
+    /* background: red; */
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.user {
+    width: 50px;
+    height:50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.user-detail {
+    display: flex;
+    align-items: center;
+}
+.user-detail h4 {
+    margin-left: 10px;
+}
+.renderchat {
+    width: 100%;
+    height: calc(100vh - 230px);
+    overflow: scroll;
+    padding-top: 10px;
+}
+.chat-incoming {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    /* align-items: center; */
+}
+.chat-incoming span {
+    background: #f1f1f1;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    /* max-width: 60%; */
+}
+.chat-outcoming {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+    /* align-items: center; */
+}
+.chat-outcoming span {
+    background: #0084FF;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    /* max-width: 60%; */
+}
+.sendmsg {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+.btn-primary {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background: #0084FF;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 10px;
+}
